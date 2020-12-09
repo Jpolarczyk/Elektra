@@ -1,0 +1,89 @@
+body
+{
+    height: 100%;
+    background-color:white;
+    margin: 0;
+}
+.gora
+{
+    
+    margin-top:40px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    
+}
+.lista
+{
+   
+    clear: both;
+    height: 7%;
+    width: 100%;
+}
+#pasek
+{
+	background-image: linear-gradient(90deg, #272d6b 0%, #1e224b 100%);
+	text-align: center;
+    width: 100%;
+    margin-right: 50px;
+}
+
+.pasekmenu
+{
+	list-style-type: none;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	font-size: 18px;
+	min-height: 38px;
+	line-height: 200%;
+    margin: 0;
+  
+}
+
+.pasekmenu > li
+{
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-right: 1px dashed #0a2b42;
+ 
+}
+
+
+
+.pasekmenu a
+{
+	color:white;
+	text-decoration: none;
+}
+.pasekmenu a:hover
+{
+	color: white;
+}
+.main
+{
+
+padding-top: 500px;
+height: 600px;
+width: 100%;
+clear: both; 
+font-size: 60px;
+letter-spacing: -1px;
+line-height: 44px;
+color: white;
+text-align: center;
+background-image: url(img/background.png);      
+}
+.main > img
+{
+    width: 200px;
+}
+.button
+{
+	background-color: rgb(255, 34, 34);
+	padding: 20px;
+	color: white;
+	font-size: 20px;
+	width:350px
+}
