@@ -1,89 +1,131 @@
+
 body
 {
     height: 100%;
-    background-color:white;
+
     margin: 0;
+    width: 100%;
 }
-.gora
+.top
 {
     
-    margin-top:40px;
-    margin-bottom: 40px;
+    padding-top: 30px; 
     width: 100%;
-    height: 15%;
+    height: 85px;
     text-align: center;
+    background-color: #ffffff; !important
     
 }
 .lista
 {
-   
+    margin-right: 50px;
     clear: both;
-    height: 7%;
+    height: 5%;
     width: 100%;
+      
 }
-#pasek
+.pasek
 {
 	background-image: linear-gradient(90deg, #272d6b 0%, #1e224b 100%);
 	text-align: center;
     width: 100%;
     margin-right: 50px;
+    
 }
 
-.pasekmenu
+.menu
 {
 	list-style-type: none;
-	padding-top: 10px;
-    padding-bottom: 10px;
+	padding-top: 15px;
+    padding-bottom: 15px;
 	font-size: 18px;
 	min-height: 38px;
 	line-height: 200%;
+    background-image: linear-gradient(90deg, #272d6b 0%, #1e224b 100%);
     margin: 0;
-  
+   font-family: sans-serif;
+   
 }
 
-.pasekmenu > li
+.menu > li
 {
 	display: inline-block;
 	margin-left: 20px;
 	margin-right: 20px;
-	border-right: 1px dashed #0a2b42;
+
+    
+    
+}
+
+.menu a
+{
+	color: #ffffff;
+	text-decoration: none;
  
 }
 
-
-
-.pasekmenu a
+.menu a:hover
 {
-	color:white;
-	text-decoration: none;
+	color: #FFFFF0;
 }
-.pasekmenu a:hover
+.menu > li > ul
 {
-	color: white;
+  display:none;  
+  list-style-type:none;
+  padding:10px;
+  margin:0;
+  text-align: center;
+  position: fixed;
+  background-image: linear-gradient(90deg, #272d6b 0%, #1e224b 100%);
+}
+.menu > li > ul > li > a
+{
+    display: block; 
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    border: solid 2px lightgray;
+}
+
+
+.menu > li > ul > li:hover a 
+{
+  color:lightgray;
+    
+}
+.menu > li:hover > ul 
+{
+    display:block;
+    
 }
 .main
 {
-
-padding-top: 500px;
-height: 600px;
-width: 100%;
-clear: both; 
-font-size: 60px;
-letter-spacing: -1px;
-line-height: 44px;
-color: white;
+height: 766px;
+width: 100%;    
+padding: 0;    
+clear: both;  
+color: #fffffc;
+font-weight: bold;
+font-family: sans-serif;
 text-align: center;
-background-image: url(img/background.png);      
+font-size: 40px; 
+background-image: url(img/backgroundv2.png);
+background-size: cover;     
+    
 }
-.main > img
-{
-    width: 200px;
-}
+
 .button
 {
 	background-color: rgb(255, 34, 34);
 	padding: 20px;
 	color: white;
-	font-size: 20px;
-	width:350px
+	font-size: 19px;
+	text-decoration: none;
+	border-radius: 5px;
+	min-width: 300px;
+}
+
+.top >img
+{
+    margin-right: 100px;
 }
